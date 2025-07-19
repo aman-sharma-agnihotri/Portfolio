@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
             <a href="#about" className="hover:text-yellow-300 transition-colors">About</a>
             <a href="#contact" className="hover:text-yellow-300 transition-colors">Contact</a>
             <a href="https://drive.google.com/file/d/1s5FvrhuQ5mozbGuTIu87LVCdg489p4-y/view?usp=sharing" target="_blank" className="hover:text-yellow-300 transition-colors hover:border-yellow-300 ">Resume</a>
-            <span><a href="https://github.com/aman-sharma-agnihotri" target="_blank" className="hover:text-yellow-300 transition-colors   hover:border-yellow-300 flex gap-1"><img src="images/github.svg" alt="github" />GitHub</a></span>
+            <span><a href="https://github.com/aman-sharma-agnihotri" target="_blank" className="hover:text-yellow-300 transition-colors   hover:border-yellow-300 flex gap-1"><Image src="/images/github.svg" alt="github" width={30} height={30} />GitHub</a></span>
 
           </div>
         </div>
@@ -34,14 +35,14 @@ export default function Home() {
         <div className="absolute inset-0 pointer-events-none opacity-30" style={{
           background: "radial-gradient(ellipse at 80% 20%, #f472b6 15%, transparent 60%), radial-gradient(ellipse at 10% 80%, #a78bfa 15%, transparent 70%)"
         }} />
-        <img
-          src="/images/profile.png"
-          alt="Aman Sharma"
-          className="w-40 h-40 rounded-full shadow-2xl border-4 border-pink-300 object-cover mb-6 bg-gradient-to-br from-purple-300 to-pink-200"
+        <Image 
+          src="/images/profile.png" width={200} height={200}
+          alt="Aman Sharma" 
+          className=" rounded-full shadow-2xl border-4 border-pink-300 object-cover mb-6 bg-gradient-to-br from-purple-300 to-pink-200"
           style={{ boxShadow: "0 8px 32px rgba(85,0,163,0.11)" }}
         />
         <h1 className="text-5xl sm:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 animate-pulse drop-shadow-lg">
-          Hi, I’m Aman Sharma
+          Hi, I am Aman Sharma
         </h1>
         <p className="text-2xl mt-5 text-gray-700 font-medium drop-shadow">MERN Developer | IT Undergrad @ UIET, PU</p>
 
@@ -53,7 +54,7 @@ export default function Home() {
         >
           View Resume
         </a>
-          <img className="w-6" src="images/resume.png" alt="resume" />
+          <Image src="/images/resume.png" alt="resume" width={30} height={30}/>
         </div>
 
         <div className="flex items-center justify-center gap-2 mt-8 mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
@@ -63,7 +64,7 @@ export default function Home() {
         >
           Download Resume
         </a>
-          <img className="w-7" src="images/download.png" alt="download" />
+          <Image  src="/images/download.png" alt="download" width={32} height={32}/>
         </div>
         </div>
       </section>
@@ -176,7 +177,7 @@ Hosted on Vercel</p>
           <div className="border border-pink-200 bg-gradient-to-br from-white via-purple-50 to-pink-50 rounded-xl p-6 shadow-xl hover:shadow-2xl transition-transform hover:-translate-y-2 backdrop-blur-md">
             <h3 className="font-bold text-xl text-purple-600 mb-2">ToDo App - Tasker</h3>
             <p className="text-gray-700 text-base mb-3 ">Tasker — ToDo & Task Manager — React.js<br /><br />
-✅ Built a lightweight, responsive task manager to practice React’s component architecture and state management.
+✅ Built a lightweight, responsive task manager to practice Reacts component architecture and state management.
 <br />
 ✅ Developed with React.js (Hooks), TailwindCSS, UUID, and LocalStorage.
 <br />
@@ -195,7 +196,7 @@ Hosted on Vercel</p>
 ✅ Recreated the X (Twitter) interface to practice responsive design and utility-first styling.<br />
 ✅ Built with HTML and TailwindCSS, focusing on clean, modern, and responsive UI.
 <br />
-✅ Gained hands-on experience with Tailwind’s utility classes and breakpoint system by replicating a real-world design.
+✅ Gained hands-on experience with Tailwinds utility classes and breakpoint system by replicating a real-world design.
 <br /> 
 </p>
             <div className="space-x-10 mt-6">
@@ -234,7 +235,7 @@ development.<br />
               key={i}
               className="rounded-2xl shadow-xl hover:shadow-2xl overflow-hidden transition-transform transform hover:-translate-y-2 border border-purple-100 bg-white bg-opacity-80 backdrop-blur-lg"
             >
-              <img src={`/images/certificate${i}.jpg`} alt={`Certificate ${i}`} className="object-cover w-180 " />
+              <Image src={`/images/certificate${i}.jpg`} alt={`Certificate ${i}`} width={850} height={850} className="object-cover " />
               <p className="text-center bg-gradient-to-r from-white to-purple-50 py-3 text-purple-700 text-lg font-semibold">
                 Certificate {i}
               </p>
@@ -248,9 +249,9 @@ development.<br />
         <div className="backdrop-blur-xl rounded-2xl shadow-xl px-8 py-10">
           <h2 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-500">About Me</h2>
           <p className="max-w-full text-xl text-gray-700">
-            Hi, I’m Aman Sharma, a dedicated and curious full-stack web developer specializing in the MERN stack — MongoDB, Express.js, React.js, and Node.js. I'm currently pursuing a Bachelor of Engineering in Information Technology (Class of 2026) at UIET, Panjab University SSG Regional Centre, Hoshiarpur.
+            Hi, I am Aman Sharma, a dedicated and curious full-stack web developer specializing in the MERN stack — MongoDB, Express.js, React.js, and Node.js. I am currently pursuing a Bachelor of Engineering in Information Technology (Class of 2026) at UIET, Panjab University SSG Regional Centre, Hoshiarpur.
 
-            My journey into web development began with a fascination for how websites work behind the scenes. Since then, I’ve been building everything from responsive front-end interfaces to dynamic back-end APIs — constantly pushing myself to learn and improve. Whether it's designing sleek UI components or setting up efficient server-side logic, I enjoy the entire process of bringing ideas to life through code.</p>
+            My journey into web development began with a fascination for how websites work behind the scenes. Since then, I have been building everything from responsive front-end interfaces to dynamic back-end APIs — constantly pushing myself to learn and improve. Whether it is designing sleek UI components or setting up efficient server-side logic, I enjoy the entire process of bringing ideas to life through code.</p>
 
           <p className="max-w-full m-6 text-xl text-gray-700">
             🌟 What I Bring:
@@ -263,7 +264,7 @@ development.<br />
 
             A mindset focused on clean code, performance, and scalability.
 
-            I’ve already built several projects including a Password Manager, ToDoApp, UI clones, and dynamic apps. I’m currently exploring more advanced concepts like authentication, payment gateway, etc.
+            I have already built several projects including a Password Manager, ToDoApp, UI clones, and dynamic apps. I am currently exploring more advanced concepts like authentication, payment gateway, etc.
           </p>
           <p className="max-w-full m-6 text-xl text-gray-700">
             🚀 Career Goals:
@@ -272,7 +273,7 @@ development.<br />
 
             Constantly upgrade my skills to stay relevant in the fast-changing web landscape.
 
-            Let’s connect if you’re into web technologies, building cool stuff, or mentoring young developers. I’m open to collaboration, internships, freelance opportunities, and tech discussions.
+            Let us connect if you are into web technologies, building cool stuff, or mentoring young developers. I am open to collaboration, internships, freelance opportunities, and tech discussions.
           </p>
         </div>
       </section>
@@ -289,7 +290,7 @@ development.<br />
         >
           LinkedIn
         </a>
-          <img className="w-7" src="images/linkedin.svg" alt="linkedin" />
+          <Image  src="images/linkedin.svg" alt="linkedin" width={33} height={33} />
         </div>
         <div className="flex items-center justify-center gap-2 mt-8 mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
           href="https://github.com/aman-sharma-agnihotri" target="_blank"
@@ -298,7 +299,7 @@ development.<br />
         >
         GitHub
         </a>
-          <img className="w-5" src="images/github1.png" alt="github" />
+          <Image  src="/images/github1.png" alt="github" width={27} height={27} />
         </div>
 
         <div className="flex items-center justify-center gap-2 mt-8 mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
@@ -307,7 +308,7 @@ development.<br />
         >
           E-mail
         </a>
-          <img className="w-6" src="images/gmail.svg" alt="gmail" />
+          <Image  src="images/gmail.svg" alt="gmail" width={30} height={30} />
         </div>
         </div>
   <p className="mt-6 text-gray-600">
