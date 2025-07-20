@@ -10,18 +10,18 @@ export default function Home() {
 
       {/* NavBar */}
       <nav className="bg-gradient-to-r from-purple-700 via-pink-600 to-indigo-700 text-white fixed w-full z-10 shadow-lg backdrop-blur-lg bg-opacity-80">
-        <div className="container mx-auto flex justify-between items-center px-5 py-3">
-          <h1 className="font-extrabold text-xl tracking-tight drop-shadow hover:text-yellow-300 transition-colors">Aman Sharma</h1>
-          <div className="space-x-5 text-base font-medium flex justify-between items-center">
-            <a href="#home" className="hover:text-yellow-300 transition-colors">Home</a>
-            <a href="#education" className="hover:text-yellow-300 transition-colors">Education</a>
-            <a href="#skills" className="hover:text-yellow-300 transition-colors">Skills</a>
-            <a href="#projects" className="hover:text-yellow-300 transition-colors">Projects</a>
-            <a href="#certificates" className="hover:text-yellow-300 transition-colors">Certificates</a>
-            <a href="#about" className="hover:text-yellow-300 transition-colors">About</a>
-            <a href="#contact" className="hover:text-yellow-300 transition-colors">Contact</a>
+        <div className="container mx-auto flex justify-between items-center px-2 py-1 md:px-5 md:py-3">
+          <h1 className="font-extrabold text-sm md:text-xl tracking-tight drop-shadow hover:text-yellow-300 transition-colors">Aman Sharma</h1>
+          <div className="space-x-2 md:space-x-5 text-sm md:text-base font-medium flex justify-between items-center">
+            <a href="#home" className="hover:text-yellow-300 transition-colors ">Home</a>
+            <a href="#education" className="hover:text-yellow-300 transition-colors hidden sm:block">Education</a>
+            <a href="#skills" className="hover:text-yellow-300 transition-colors hidden sm:block">Skills</a>
+            <a href="#projects" className="hover:text-yellow-300 transition-colors hidden sm:block">Projects</a>
+            <a href="#certificates" className="hover:text-yellow-300 transition-colors hidden sm:block">Certificates</a>
+            <a href="#about" className="hover:text-yellow-300 transition-colors hidden sm:block">About</a>
+            <a href="#contact" className="hover:text-yellow-300 transition-colors hidden sm:block">Contact</a>
             <a href="https://drive.google.com/file/d/1s5FvrhuQ5mozbGuTIu87LVCdg489p4-y/view?usp=sharing" target="_blank" className="hover:text-yellow-300 transition-colors hover:border-yellow-300 ">Resume</a>
-            <span><a href="https://github.com/aman-sharma-agnihotri" target="_blank" className="hover:text-yellow-300 transition-colors   hover:border-yellow-300 flex gap-1"><Image src="/images/github.svg" alt="github" width={30} height={30} />GitHub</a></span>
+            <span><a href="https://github.com/aman-sharma-agnihotri" target="_blank" className="hover:text-yellow-300 transition-colors  hover:border-yellow-300 flex gap-1"><Image className="hidden sm:block" src="/images/github.svg" alt="github" width={30} height={30} />GitHub</a></span>
 
           </div>
         </div>
@@ -46,8 +46,8 @@ export default function Home() {
         </h1>
         <p className="text-2xl mt-5 text-gray-700 font-medium drop-shadow">MERN Developer | IT Undergrad @ UIET, PU</p>
 
-        <div className="flex gap-13">
-        <div className="flex items-center justify-center gap-2 mt-8 mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-13">
+        <div className="flex items-center justify-center gap-2 mt-6 mb-2 sm:mt-8 sm:mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
           href="https://drive.google.com/file/d/1s5FvrhuQ5mozbGuTIu87LVCdg489p4-y/view?usp=sharing" target="_blank"
         
           className=""
@@ -57,7 +57,7 @@ export default function Home() {
           <Image src="/images/resume.png" alt="resume" width={30} height={30}/>
         </div>
 
-        <div className="flex items-center justify-center gap-2 mt-8 mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
+        <div className="flex items-center justify-center gap-2 mt-2 mb-4 sm:mt-8 sm:mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
           href="/Resume.pdf"
           download
           className=""
@@ -282,8 +282,8 @@ development.<br />
       {/* Contact */}
       <section id="contact" className="min-h/4-screen flex flex-col justify-center items-center bg-white text-center py-10">
   <h2 className="text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-500">Contact Me</h2>
-  <div className="flex gap-13">
-        <div className="flex items-center justify-center gap-2 mt-8 mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
+  <div className="flex flex-col sm:flex-row gap-2 sm:gap-13">
+        <div className="flex items-center justify-center gap-2 mt-1 mb-1 sm:mt-8 sm:mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
           href="https://www.linkedin.com/in/amansharmaagnihotri/" target="_blank"
         
           className=""
@@ -292,7 +292,7 @@ development.<br />
         </a>
           <Image  src="images/linkedin.svg" alt="linkedin" width={33} height={33} />
         </div>
-        <div className="flex items-center justify-center gap-2 mt-8 mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
+        <div className="flex items-center justify-center gap-2 mt-1 mb-1 sm:mt-8 sm:mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
           href="https://github.com/aman-sharma-agnihotri" target="_blank"
         
           className=""
@@ -302,7 +302,7 @@ development.<br />
           <Image  src="/images/github1.png" alt="github" width={27} height={27} />
         </div>
 
-        <div className="flex items-center justify-center gap-2 mt-8 mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
+        <div className="flex items-center justify-center gap-2 mt-1 mb-1 sm:mt-8 sm:mb-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-bold shadow-md transition-all duration-300 hover:scale-105 backdrop-blur-md"> <a
           href="https://mailto:4contact2amansharm@gmail.com" target='_blank'
           className=""
         >
