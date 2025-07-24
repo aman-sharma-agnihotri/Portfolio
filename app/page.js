@@ -10,7 +10,7 @@ export default function Home() {
 
       {/* NavBar */}
       <nav className="bg-gradient-to-r from-purple-700 via-pink-600 to-indigo-700 text-white fixed w-full z-10 shadow-lg backdrop-blur-lg bg-opacity-80">
-        <div className="container mx-auto flex justify-between items-center px-2 py-1 md:px-5 md:py-3">
+        <div className="container mx-auto flex justify-between items-center px-2 py-2 md:px-5 md:py-3">
           <h1 className="font-extrabold text-sm md:text-xl tracking-tight drop-shadow hover:text-yellow-300 transition-colors">Aman Sharma</h1>
           <div className="space-x-2 md:space-x-5 text-sm md:text-base font-medium flex justify-between items-center">
             <a href="#home" className="hover:text-yellow-300 transition-colors ">Home</a>
@@ -19,7 +19,7 @@ export default function Home() {
             <a href="#projects" className="hover:text-yellow-300 transition-colors hidden sm:block">Projects</a>
             <a href="#certificates" className="hover:text-yellow-300 transition-colors hidden sm:block">Certificates</a>
             <a href="#about" className="hover:text-yellow-300 transition-colors hidden sm:block">About</a>
-            <a href="#contact" className="hover:text-yellow-300 transition-colors hidden sm:block">Contact</a>
+            <a href="#contact" className="hover:text-yellow-300 transition-colors ">Contact</a>
             <a href="https://drive.google.com/file/d/1s5FvrhuQ5mozbGuTIu87LVCdg489p4-y/view?usp=sharing" target="_blank" className="hover:text-yellow-300 transition-colors hover:border-yellow-300 ">Resume</a>
             <span><a href="https://github.com/aman-sharma-agnihotri" target="_blank" className="hover:text-yellow-300 transition-colors  hover:border-yellow-300 flex gap-1"><Image className="hidden sm:block" src="/images/github.svg" alt="github" width={30} height={30} />GitHub</a></span>
 
@@ -170,7 +170,7 @@ Hosted on Vercel</p>
             ✅ Focused on clean design, state management, and persistent storage in MongoDB.<br />
 </p>
             <div className="space-x-10 mt-6">
-              <a href="https://password-manager-aman-sharma-projects.vercel.app/" target="_blank" className="text-pink-600 font-bold  hover:text-pink-800 transition hover:bg-gradient-to-r  bg-pink-200 hover:bg-pink-300 px-3 py-2 rounded-full">Live Link</a>
+              <a href="https://password-manager-eight-gold.vercel.app/" target="_blank" className="text-pink-600 font-bold  hover:text-pink-800 transition hover:bg-gradient-to-r  bg-pink-200 hover:bg-pink-300 px-3 py-2 rounded-full">Live Link</a>
               <a href="https://github.com/aman-sharma-agnihotri/Password-Manager" target="_blank"  className="text-purple-600 font-bold  hover:text-purple-800 transition bg-purple-200 hover:bg-purple-300 px-3 py-2 rounded-full">Code</a>
             </div>
           </div>
@@ -200,7 +200,7 @@ Hosted on Vercel</p>
 <br /> 
 </p>
             <div className="space-x-10 mt-6">
-              <a href="https://x-ui-clone-aman-sharma-projects.vercel.app/" target="_blank"    className="text-pink-600 font-bold  hover:text-pink-800 transition hover:bg-gradient-to-r  bg-pink-200 hover:bg-pink-300 px-3 py-2 rounded-full">Live Link</a>
+              <a href="https://x-ui-clone-kohl.vercel.app/" target="_blank"    className="text-pink-600 font-bold  hover:text-pink-800 transition hover:bg-gradient-to-r  bg-pink-200 hover:bg-pink-300 px-3 py-2 rounded-full">Live Link</a>
               <a href="https://github.com/aman-sharma-agnihotri/X-UI-Clone" target="_blank" className="text-purple-600 font-bold  hover:text-purple-800 transition bg-purple-200 hover:bg-purple-300 px-3 py-2 rounded-full">Code</a>
             </div>
           </div>
