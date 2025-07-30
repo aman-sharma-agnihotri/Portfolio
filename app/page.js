@@ -156,7 +156,7 @@ TailwindCSS,
 Hosted on Vercel</p>
             <div className="space-x-10 mt-6">
               <a href="https://a-link-gamma.vercel.app/" target="_blank" className="text-pink-600 font-bold  hover:text-pink-800 transition hover:bg-gradient-to-r  bg-pink-200 hover:bg-pink-300 px-3 py-2 rounded-full">Live Link</a>
-              <a href="https://github.com/aman-sharma-agnihotri/A-link" target="_blank" className="text-purple-600 font-bold  hover:text-purple-800 transition bg-purple-200 hover:bg-purple-300 px-3 py-2 rounded-full">Code</a>
+              <a href="https://github.com/aman-sharma-agnihotri/URL-Shortner-A-link" target="_blank" className="text-purple-600 font-bold  hover:text-purple-800 transition bg-purple-200 hover:bg-purple-300 px-3 py-2 rounded-full">Code</a>
             </div>
           </div>
           <div className="border border-pink-200 bg-gradient-to-br from-white via-purple-50 to-pink-50 rounded-xl p-6 shadow-xl hover:shadow-2xl transition-transform hover:-translate-y-2 backdrop-blur-md">
@@ -171,7 +171,7 @@ Hosted on Vercel</p>
 </p>
             <div className="space-x-10 mt-6">
               <a href="https://password-manager-eight-gold.vercel.app/" target="_blank" className="text-pink-600 font-bold  hover:text-pink-800 transition hover:bg-gradient-to-r  bg-pink-200 hover:bg-pink-300 px-3 py-2 rounded-full">Live Link</a>
-              <a href="https://github.com/aman-sharma-agnihotri/Password-Manager" target="_blank"  className="text-purple-600 font-bold  hover:text-purple-800 transition bg-purple-200 hover:bg-purple-300 px-3 py-2 rounded-full">Code</a>
+              <a href="https://github.com/aman-sharma-agnihotri/Password-Manager-MERN-Stack" target="_blank"  className="text-purple-600 font-bold  hover:text-purple-800 transition bg-purple-200 hover:bg-purple-300 px-3 py-2 rounded-full">Code</a>
             </div>
           </div>
           <div className="border border-pink-200 bg-gradient-to-br from-white via-purple-50 to-pink-50 rounded-xl p-6 shadow-xl hover:shadow-2xl transition-transform hover:-translate-y-2 backdrop-blur-md">
