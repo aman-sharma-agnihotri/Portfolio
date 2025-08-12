@@ -230,7 +230,7 @@ development.<br />
          Internship and Training Certificates
         </h2>
         <div className="flex flex-col gap-10">
-          {[1, 2, 3,4].map(i => (
+          {[1, 2, 3,4,5].map(i => (
             <div
               key={i}
               className="rounded-2xl shadow-xl hover:shadow-2xl overflow-hidden transition-transform transform hover:-translate-y-2 border border-purple-100 bg-white bg-opacity-80 backdrop-blur-lg"
