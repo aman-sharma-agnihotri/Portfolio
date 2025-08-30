@@ -126,7 +126,7 @@ export default function Home() {
         <h2 className="text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-500">Skills and Tools</h2>
         <div className="flex flex-wrap justify-center gap-4 max-w-2xl">
           {[
-            "HTML", "CSS", "TailwindCSS", "JavaScript", "React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "Git", "GitHub", "VSCode", "Postman", "Vercel", "MERN Stack"
+            "C++", "HTML", "CSS", "TailwindCSS", "JavaScript", "React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "Git", "GitHub", "VSCode", "Postman", "Vercel", "MERN Stack"
           ].map(skill => (
             <span
               key={skill}
@@ -256,7 +256,7 @@ development.<br />
           <p className="max-w-full m-6 text-xl text-gray-700">
             🌟 What I Bring:
 
-            A strong foundation in web development principles.
+            A strong foundation in web development principles and problem solving with C++.
 
             A passion for building real-world applications that are both functional and user-friendly.
 
