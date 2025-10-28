@@ -107,7 +107,7 @@ export default function Home() {
             <div className="flex items-center w-full mb-12">
               <div className="w-1/2 text-right pr-6">
                 <div className="font-bold text-lg text-indigo-700">BE (IT)</div>
-                <div className="text-gray-600">University Institute of Engineering and Technology,<br />Panjab University SSGRC, Hoshiarpur, P.B.<br />Batch: 2022–2026<br />CGPA: 8.47 (upto 5<sup>th</sup> semester)</div>
+                <div className="text-gray-600">University Institute of Engineering and Technology,<br />Panjab University SSGRC, Hoshiarpur, P.B.<br />Batch: 2022–2026<br />CGPA: 8.55 (upto 6<sup>th</sup> semester)</div>
               </div>
               <div className="relative">
                 <div className="w-7 h-7 rounded-full bg-gradient-to-r from-indigo-500 to-purple-400 border-4 border-white shadow-xl animate-bounce" />
